@@ -113,6 +113,10 @@ section .searchField{
 	margin: 0 auto;
 	display: block;
 	border: 1px solid #ccc;
+	background-image:url("mic.gif");
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+	background-size: 14px;
 
 }
 
@@ -121,9 +125,18 @@ section .searchField{
 }
 
 .buttons {
-	width: 220px;
+	width: 230px;
 	display: block;
 	margin: 0 auto;
+}
+.button {
+	padding: 6px 11px;
+	background-color: rgb(242,242,242);
+	border: 1px solid rgb(219,219,219);
+	margin-right: 6px;
+	font-weight: bold;
+	font-size: .65em;
+	cursor: pointer;
 }
 
 ul {
@@ -145,6 +158,12 @@ footer {
 }
 footer li{
 	margin-right: 22px;
+	text-align: center;
+	cursor: pointer;
+}
+
+footer li:hover{
+	text-decoration: underline;
 }
 
 .About {
