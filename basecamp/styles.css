@@ -207,6 +207,76 @@ main img{
 
 }
 
+.Lastfigure img{
+  max-width: 70%;
+
+}
+
+.list{
+	list-style-type: disc;
+	list-style-position: inside;
+    margin-top: 9px;
+	margin-bottom: 22px;
+	font-size: 18px;
+	line-height: 26px;
+	opacity: .85;
+
+}
+.list li{
+	margin-top: 18px;
+}
+.list a {
+	color: rgb(98,139,220)
+}
+.finalImage {
+	display: block;
+	width: 85%;
+	max-width: 100px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.finalText ul li{
+	list-style-position: inside;
+    margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	opacity: .85;
+	font-size: 15px;
+}
+
+.finalText a {
+	color: rgb(98,139,220);
+}
+
+.finalText h3 {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+.finalText {
+	margin-bottom: 60px;
+}
+
+.finalText p{
+    margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	opacity: .85;
+	font-size: 15px;
+}
+.finalText .bold {
+	font-weight: bold;
+}
+
+.lastLogo {
+	width: 100%;
+	max-width: 165px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 .group:before,
 .group:after {
