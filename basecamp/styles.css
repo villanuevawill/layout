@@ -199,7 +199,15 @@ p a {
 main img{
 	width: 88%;
      max-width: 1000px;
+     margin-bottom: 12px;
 }
+
+.figures {
+	margin-top: 60px;
+
+}
+
+
 .group:before,
 .group:after {
   content: "";
