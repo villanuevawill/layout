@@ -1,3 +1,213 @@
-body{
-  /* rules go here */
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Page Syles! */
+
+
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	margin-top: 20px;
+	width: 100%;
+	min-width: 800px;
+
+}
+
+header a {
+
+	text-decoration: underline;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: rgb(98,139,220);
+	display: inline-block;
+	text-align: center;
+
+}
+
+header a:hover {
+	color: rgb(143,174,241);
+}
+
+
+header img{
+	height:37px;
+	float: left;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+header ul{
+	float:right;
+	margin-top: 11px;
+	margin-right: 20px;
+}
+
+header li{
+	display: inline;
+	margin-right: 12px;
+	text-align: center;
+	letter-spacing: .5px;
+
+}
+
+.login {
+	text-decoration: none;
+	color: white;
+	background-color: rgb(58,99,207);
+	padding: 9px 16px;
+	border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+
+}
+.login a{
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	display: inline;
+}
+.login a:hover{
+	color: white;
+}
+
+.login:hover{
+	background-color: rgb(98,139,220);
+}
+
+.topImage{
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 70%;
+  max-width: 450px;
+
+}
+
+h1 {
+	font-weight: bold;
+    font-size: 2em;
+	margin-top: 10px;
+}
+
+.text {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 900px;
+}
+
+main {
+	font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+	text-align: center;
+}
+
+#trial {
+	background-color: rgb(58,99,207);
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 20px 20px;
+	box-shadow: .2px 3px 0 rgb(51,81,152);
+	cursor: pointer;
+}
+
+#trial:hover{
+	background-color: rgb(98,139,220);
+}
+
+#trial a{
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+}
+
+.innerText{
+	margin: 0 auto;
+	text-align: left;
+	width: 100%;
+	max-width: 690px;
+	margin-top: 50px;
+}
+
+
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+
+}
+
+p {
+	margin-top: 9px;
+	margin-bottom: 22px;
+	font-size: 18px;
+	line-height: 26px;
+	opacity: .85;
+}
+
+p a {
+	text-decoration: underline;
+	color: rgb(98,139,220);
+}
+
+main img{
+	width: 88%;
+     max-width: 1000px;
+}
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
 }
