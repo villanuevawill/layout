@@ -147,7 +147,7 @@ main {
 	text-align: center;
 }
 
-#trial {
+.trial {
 	background-color: rgb(58,99,207);
 	width: 450px;
 	margin: 0 auto;
@@ -158,11 +158,11 @@ main {
 	cursor: pointer;
 }
 
-#trial:hover{
+.trial:hover{
 	background-color: rgb(98,139,220);
 }
 
-#trial a{
+.trial a{
 	text-decoration: none;
 	color: white;
 	font-size: 21px;
@@ -249,7 +249,7 @@ main img{
 	color: rgb(98,139,220);
 }
 
-.finalText h3 {
+.finalText h1 {
 	font-weight: bold;
 	font-size: 18px;
 	margin-top: 11px;
